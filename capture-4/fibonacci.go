@@ -13,5 +13,5 @@ func fibo(N int) int {
 }
 
 func main() {
-	fmt.Println(fibo(9))
+	fmt.Println(fibo(40))
 }

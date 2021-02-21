@@ -27,12 +27,12 @@ func main() {
 		a[i] += nextInt()
 	}
 	// 線形探索
-	foundId := -1
+	foundID := -1
 	for i := 0; i < N; i++ {
 		if a[i] == v {
-			foundId = i
+			foundID = i
 			break
 		}
 	}
-	fmt.Println(foundId)
+	fmt.Println(foundID)
 }
